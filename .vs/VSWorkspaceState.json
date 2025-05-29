@@ -1,0 +1,12 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "build\\skyrim",
+      "build\\vr"
+    ]
+  },
+  "ExpandedNodes": [
+    ""
+  ],
+  "PreviewInSolutionExplorer": false
+}

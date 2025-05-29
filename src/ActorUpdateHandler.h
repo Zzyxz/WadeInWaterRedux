@@ -8,6 +8,8 @@ public:
 		Hooks::Install();
 	}
 
+	
+
 	static ActorUpdateHandler* GetSingleton()
 	{
 		static ActorUpdateHandler handler;
@@ -52,7 +54,7 @@ private:
 	constexpr ActorUpdateHandler() noexcept = default;
 	ActorUpdateHandler(const ActorUpdateHandler&) = delete;
 	ActorUpdateHandler(ActorUpdateHandler&&) = delete;
-
+	static float CalculateSwimArmorSlowdown(RE::Actor* actor, float baseReduction);
 	~ActorUpdateHandler() = default;
 
 	ActorUpdateHandler& operator=(const ActorUpdateHandler&) = delete;
